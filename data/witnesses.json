@@ -684,7 +684,12 @@
         "submitted": "2026-11-07T14:19:45.708Z"
       },
       "sigstore": null,
-      "wayback": null
+      "wayback": {
+        "target": "https://raw.githubusercontent.com/Jamie847/peoples-money-watch/bd19dd2b7ac698d9a7e1d332c607ffe45b2d5878/data/checkpoints/000032-2026-11-07.json",
+        "snapshot": "https://web.archive.org/web/20261107141956/https://raw.githubusercontent.com/Jamie847/peoples-money-watch/bd19dd2b7ac698d9a7e1d332c607ffe45b2d5878/data/checkpoints/000032-2026-11-07.json",
+        "lookup": "https://web.archive.org/web/*/https://raw.githubusercontent.com/Jamie847/peoples-money-watch/bd19dd2b7ac698d9a7e1d332c607ffe45b2d5878/data/checkpoints/000032-2026-11-07.json",
+        "status": "saved"
+      }
     }
   ]
 }
