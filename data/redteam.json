@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-08T14:19:26.439Z",
+  "ran_at": "2026-11-09T14:21:43.618Z",
   "all_caught": true,
   "attacks": [
     {
@@ -24,7 +24,7 @@
       "id": "rewrite-entire-ledger",
       "description": "Rewrite history and re-seal EVERY entry so the chain looks perfect",
       "caught": true,
-      "detail": "chain re-sealed perfectly, but 29 witnessed checkpoint(s) expose it"
+      "detail": "chain re-sealed perfectly, but 30 witnessed checkpoint(s) expose it"
     },
     {
       "id": "edit-frozen-reading",
@@ -63,5 +63,12 @@
       "detail": "no secrets visible; repo write blocked; network blocked"
     }
   ],
-  "ai_ideas": null
+  "ai_ideas": {
+    "model": "claude-haiku-5-5",
+    "ideas": [
+      "Replay a valid, previously anchored checkpoint against a fresh ledger fork by reusing its Sigstore bundle and Internet Archive snapshot, to test whether verifiers bind anchors to the exact run ID and chain head.",
+      "Feed a government data source a schema-valid but semantically shifted reading (e.g. a silent unit or base-year change) to test whether the pipeline detects discontinuities before sealing the rule.",
+      "Have a community agent exfiltrate data via timing or output-size side channels inside the no-network sandbox, to test whether the sandbox limits covert channels as well as direct network access."
+    ]
+  }
 }
