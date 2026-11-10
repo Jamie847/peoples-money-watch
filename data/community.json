@@ -1,7 +1,7 @@
 {
-  "ran_at": "2026-11-09T14:21:40.470Z",
+  "ran_at": "2026-11-10T14:19:49.819Z",
   "isolated": true,
-  "context_sha256": "6893fa102bf8e2a54b6725c4d822ac1f3d7642361e82c0e8d43659de270a809c",
+  "context_sha256": "149144d88e05c18c8406b802720a137abe6781dd40c62c90b7d2a37cb7a22628",
   "agents": [
     {
       "id": "purchasing-power-clock",
@@ -10,31 +10,31 @@
       "role": "analyst",
       "description": "Shows what a dollar saved at past dates buys today, from the published CPI-U. Facts only, no forecasts. A template for contributors.",
       "homepage": null,
-      "duration_ms": 77,
+      "duration_ms": 61,
       "isolated": true,
       "report": {
         "status": "info",
-        "headline": "A dollar saved in January 2000 now buys about 50¢ (CPI-U, 2026-09)",
+        "headline": "A dollar saved in January 2000 now buys about 50¢ (CPI-U, 2026-10)",
         "recompute": null,
         "findings": [
           {
             "label": "A dollar saved in January 2000",
             "value": "buys 50¢ of goods today",
-            "note": "CPI-U 169.300 then vs 336.298 in 2026-09"
+            "note": "CPI-U 169.300 then vs 337.476 in 2026-10"
           },
           {
             "label": "A dollar saved in January 2020",
             "value": "buys 77¢ of goods today",
-            "note": "CPI-U 259.127 then vs 336.298 in 2026-09"
+            "note": "CPI-U 259.127 then vs 337.476 in 2026-10"
           },
           {
             "label": "A dollar saved at the shadow-run start (April 2026)",
-            "value": "buys 99¢ of goods today",
-            "note": "CPI-U 332.407 then vs 336.298 in 2026-09"
+            "value": "buys 98¢ of goods today",
+            "note": "CPI-U 332.407 then vs 337.476 in 2026-10"
           }
         ]
       },
-      "output_sha256": "aeec8bcfead2670e28dc887950917479cdf4ff1e6753c4bf9e4e5b24fec0f5fb"
+      "output_sha256": "9e9547a3e3d77ce8c620942d759a123c664ee088e92695ae124213bd73b0d609"
     }
   ]
 }
