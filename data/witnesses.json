@@ -780,7 +780,12 @@
         "rekor_search": "https://search.sigstore.dev/?logIndex=3811652249",
         "verify": "gh attestation verify data/checkpoints/000036-2026-11-11.json --repo Jamie847/peoples-money-watch"
       },
-      "wayback": null
+      "wayback": {
+        "target": "https://raw.githubusercontent.com/Jamie847/peoples-money-watch/9542baae8b48e349702b13fb51b31edc6e50160d/data/checkpoints/000036-2026-11-11.json",
+        "snapshot": "https://web.archive.org/web/20261111142116/https://raw.githubusercontent.com/Jamie847/peoples-money-watch/9542baae8b48e349702b13fb51b31edc6e50160d/data/checkpoints/000036-2026-11-11.json",
+        "lookup": "https://web.archive.org/web/*/https://raw.githubusercontent.com/Jamie847/peoples-money-watch/9542baae8b48e349702b13fb51b31edc6e50160d/data/checkpoints/000036-2026-11-11.json",
+        "status": "saved"
+      }
     }
   ]
 }
