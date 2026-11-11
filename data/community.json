@@ -1,7 +1,7 @@
 {
-  "ran_at": "2026-11-10T14:19:49.819Z",
+  "ran_at": "2026-11-11T14:20:30.446Z",
   "isolated": true,
-  "context_sha256": "149144d88e05c18c8406b802720a137abe6781dd40c62c90b7d2a37cb7a22628",
+  "context_sha256": "34f5d39e88717e35058143d29bf8f9dfe0275aa6e6804784f9daa2760fc12729",
   "agents": [
     {
       "id": "purchasing-power-clock",
@@ -10,7 +10,7 @@
       "role": "analyst",
       "description": "Shows what a dollar saved at past dates buys today, from the published CPI-U. Facts only, no forecasts. A template for contributors.",
       "homepage": null,
-      "duration_ms": 61,
+      "duration_ms": 55,
       "isolated": true,
       "report": {
         "status": "info",
