@@ -3,12 +3,12 @@
   "title": "The People's Watch — shadow run of The People's Money rule",
   "disclaimer": "Unofficial shadow run of a candidate design described in The People's Money (Jamie Murray, 2026). It is not the design's formal 18-month rehearsal, executes nothing, and publishes no national issuance figure. Each live reading after the starting quarter uses the rule's inputs exactly as published on its computation date (the starting quarter's prices were read at launch; see interpretation 8); all data are fetched through the St. Louis Fed's FRED/ALFRED; the replay and the sentinels use current (revised) data. Whether the rule would keep prices stable has not been tested. Not financial advice.",
   "run": {
-    "date": "2026-11-14",
-    "started_at": "2026-11-14T14:19:22.573Z",
-    "finished_at": "2026-11-14T14:19:34.853Z",
+    "date": "2026-11-15",
+    "started_at": "2026-11-15T14:19:24.469Z",
+    "finished_at": "2026-11-15T14:19:46.699Z",
     "mode": "live",
-    "ledger_seq": 39,
-    "ledger_hash": "894736613848697b2d3812c89d5a1b982f6db381710103fd29356c4f46de6464"
+    "ledger_seq": 40,
+    "ledger_hash": "dfe898f587808ea644ed173a633013a2c6a62d4e10589d13d1f43c0d5ecb5138"
   },
   "fred_api": {
     "key_present": true,
@@ -139,11 +139,11 @@
         "method": "decimal-values-v1",
         "series": "CPIAUCSL",
         "start": "1998-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 345,
         "api_sha256": "02342f5759980e724044ba573ff5d672b53b22f32ea2cc4e631182f317b760ac",
         "csv_sha256": "99733bbc0ccafffa1908fc8217f67873cfd3e28f9463789a17d358ff66e4bd7a",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "PCE": {
         "schema": 2,
@@ -151,11 +151,11 @@
         "method": "decimal-values-v1",
         "series": "PCEPI",
         "start": "1998-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 345,
         "api_sha256": "64b38b2198a95a09f839bb43821c3ae20aa4f55bb22db5a42dcf0f4815f84812",
         "csv_sha256": "ef6f1e789e32d95ed84bfae195d8ce15425480e3cb92b6ddaa4cc80fb644c8bf",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "GDP": {
         "schema": 2,
@@ -163,11 +163,11 @@
         "method": "decimal-values-v1",
         "series": "GDPCA",
         "start": "1980-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 46,
         "api_sha256": "22097abffbe7848e0d8c5794bee67322ad551435594edadc26b389f04c6926e2",
         "csv_sha256": "eb9a798ecd2da13423fd195cb6e247b101126cfa030a763331a8c0b8f50f5244",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "SWAPS": {
         "schema": 2,
@@ -175,11 +175,11 @@
         "method": "decimal-values-v1",
         "series": "SWPT",
         "start": "2007-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 1037,
         "api_sha256": "f66c3ab00bcc235538b04dc47b988df14ede1689bed42304d32ed8e9d44f178b",
         "csv_sha256": "5a569d90b88aec619b976930bd4090c6eda57a22f8da64431f32c6e99adaace7",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "FIMA_REPO": {
         "schema": 2,
@@ -187,11 +187,11 @@
         "method": "decimal-values-v1",
         "series": "H41RESPPALGTRFNWW",
         "start": "2007-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 1037,
         "api_sha256": "3a158738a09cf71012a015e7ea424a5d6ebc1e2384ecac08150c295a0cc43d3e",
         "csv_sha256": "6072bd756c8ea0bc176d095011abce4c9469a0787bb9fd86f4cef2f524007f18",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "FOREIGN_CUSTODY": {
         "schema": 2,
@@ -199,11 +199,11 @@
         "method": "decimal-values-v1",
         "series": "WMTSECL1",
         "start": "2007-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 1037,
         "api_sha256": "f09b1d4bef1407ef1d9c6883461f7d367630f693eb3d5ffe5612e85c64e865ea",
         "csv_sha256": "7deb6f72b8ae8d8fb349a8170957b5e26317c246128ab582458dfce46c60a37d",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "DOLLAR_INDEX": {
         "schema": 2,
@@ -211,11 +211,11 @@
         "method": "decimal-values-v1",
         "series": "DTWEXBGS",
         "start": "2006-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 5227,
         "api_sha256": "e38ef398ff9234ab811390e3883aaa7b38188b57bf124b29ea590ccf470065eb",
         "csv_sha256": "448522e5b4b78d787e08edd86028dfe67a92c4aeab1aded9266304d6c71f19bc",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "TEN_YEAR": {
         "schema": 2,
@@ -223,11 +223,11 @@
         "method": "decimal-values-v1",
         "series": "DGS10",
         "start": "2019-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 1967,
         "api_sha256": "a21fd4c002eae963cd7800a0d2cd336d29e5c240e50c11ffd9539584701c7107",
         "csv_sha256": "cb7fb3630e058ad2a0e0b137d03adb9f68e2b6d45c69ccea961791b738914f93",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "STRESS_STL": {
         "schema": 2,
@@ -235,11 +235,11 @@
         "method": "decimal-values-v1",
         "series": "STLFSI4",
         "start": "2007-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 1036,
         "api_sha256": "0741323c8cbd5eca75e15fe6cbf5d8217def73a37c828f5fdb95a43e62879e77",
         "csv_sha256": "df1e1072760e1e4a0f3e465c0a61147ace60cd8af4ca8c45e059906aec2aed7c",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "STRESS_CHI": {
         "schema": 2,
@@ -247,11 +247,11 @@
         "method": "decimal-values-v1",
         "series": "NFCI",
         "start": "2007-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 1036,
         "api_sha256": "e1732cc9a2db7fc58d75f395a6bfaf12bcb463040d228dfffeb8376703e46bf5",
         "csv_sha256": "4d2dc1aa751549ccb977e5773314539d392167d5ed69aa81f72f54c57b09107b",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "BANK_CREDIT": {
         "schema": 2,
@@ -259,11 +259,11 @@
         "method": "decimal-values-v1",
         "series": "TOTLL",
         "start": "2007-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 1036,
         "api_sha256": "176297450b364ef7c6017ec897595be0792daef532b99cd7ebe62e8e4a258f9f",
         "csv_sha256": "e810bf7298b198670d5ad6648e82d1974c91d6b873805558e9ae93f4fab8b100",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "SOFR": {
         "schema": 2,
@@ -271,11 +271,11 @@
         "method": "decimal-values-v1",
         "series": "SOFR",
         "start": "2021-07-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 1339,
         "api_sha256": "06fea68351e98725a388df7aef03ceb26654b77a7a51db0fa0f932a9243a2664",
         "csv_sha256": "adbaf663597b85c0b8eb103edb6bf0fbb5378a9a06a95e7f68f266358c9129ad",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "IORB": {
         "schema": 2,
@@ -283,11 +283,11 @@
         "method": "decimal-values-v1",
         "series": "IORB",
         "start": "2021-07-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 1937,
         "api_sha256": "ab4b93750a2eb47cc3e16260aa424a42866b2c5b4b0da642f3dfa14338b1e4a8",
         "csv_sha256": "011e832e27f75be436389aa87121258ffcd8a3103fe13b4e1b4e5fb98903c3dd",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "RESERVES": {
         "schema": 2,
@@ -295,11 +295,11 @@
         "method": "decimal-values-v1",
         "series": "WRESBAL",
         "start": "2002-12-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 1248,
         "api_sha256": "55b876bd388dbe99da588e20888c7842fc5cd345016323584afadea41a555ac8",
         "csv_sha256": "dec5e87724f6a9df75d328825b3c768e11962bec818f97bdbb350297dbc31f4b",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "TGA": {
         "schema": 2,
@@ -307,11 +307,11 @@
         "method": "decimal-values-v1",
         "series": "WTREGEN",
         "start": "2007-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 1037,
         "api_sha256": "0b5a0499e38038f539852414802fb7dace6a4ebdd04bada1e359ca273e373110",
         "csv_sha256": "dca62369f007f1e161dfacc6b5dd77d4602572a8b69abc5e1ca20350b830f9c7",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "ON_RRP": {
         "schema": 2,
@@ -319,11 +319,11 @@
         "method": "decimal-values-v1",
         "series": "RRPONTSYD",
         "start": "2019-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 1964,
         "api_sha256": "c1e41470e19ebfc5855437045960a34a2037ce9c5b52238dae432a04c678dde9",
         "csv_sha256": "ab2024eaf68e83ac1fb46266ccb2f81d44b7b2e169d15bad8c525d884860cbdc",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "EXPECT_5Y5Y": {
         "schema": 2,
@@ -331,11 +331,11 @@
         "method": "decimal-values-v1",
         "series": "T5YIFR",
         "start": "2003-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 5971,
         "api_sha256": "05f83c9c7769d232e309a34d7a5807220d7f966618ed7a20f004c597a6162e10",
         "csv_sha256": "93c899af1a424454d1d0d2b1671be1dfa3110fb02989d2380f1f59c61a9d113f",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "EXPECT_MICH": {
         "schema": 2,
@@ -343,11 +343,11 @@
         "method": "decimal-values-v1",
         "series": "MICH",
         "start": "2007-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 237,
         "api_sha256": "dac90438fffc97f2b5248da8690c00fd690595666e926d75f74f43fc01dc107b",
         "csv_sha256": "dfd213128248a16b94a3d61d5bc243b6268709d1c87016f4ebc53c90d1e72350",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "MEDIAN_CPI": {
         "schema": 2,
@@ -355,31 +355,31 @@
         "method": "decimal-values-v1",
         "series": "MEDCPIM158SFRBCLE",
         "start": "2007-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 238,
         "api_sha256": "a5a342cde18af3755220ddf6e8b38d009c16caec2f7e90e63198fc2abd2fbf33",
         "csv_sha256": "809cde8fb041521164fe6fb9aafae98665c9d6ca406701dfb75a5f2d6936d48a",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "UNEMPLOYMENT": {
         "schema": 1,
         "status": "identical",
         "series": "UNRATE",
         "start": "2007-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "api_sha256": "8b3c92b016132da7e8a8414facb75fa79b5aaf4e39971e0f02e309429404420a",
         "csv_sha256": "8b3c92b016132da7e8a8414facb75fa79b5aaf4e39971e0f02e309429404420a",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "BASE": {
         "schema": 1,
         "status": "identical",
         "series": "BOGMBASE",
         "start": "1999-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "api_sha256": "cbf77890eb47d0e884b3d57f8702f433fed7acd30c7387f67373d752dee87565",
         "csv_sha256": "cbf77890eb47d0e884b3d57f8702f433fed7acd30c7387f67373d752dee87565",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "CURRENCY": {
         "schema": 2,
@@ -387,11 +387,11 @@
         "method": "decimal-values-v1",
         "series": "WCURCIR",
         "start": "2003-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 1246,
         "api_sha256": "57b3aa7788ac3b2618ff56026cc71acb571f497d92b202be725c2eaff96f2291",
         "csv_sha256": "696a4aa81297f89c29135d39370c8866881c4cbd9a5cd11cfe92fd5cdfca325b",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "NGDP": {
         "schema": 2,
@@ -399,11 +399,11 @@
         "method": "decimal-values-v1",
         "series": "GDP",
         "start": "1999-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 111,
         "api_sha256": "2e7bdbae55f15149f363bcc1a368f2998ec4efbac71dddfd1709e282c6a3020f",
         "csv_sha256": "1fb6c8bcdfa342bcb30eed979658bcb83686ae8fa1acf50dbff06ccdaa3ae7e3",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "POPULATION": {
         "schema": 2,
@@ -411,11 +411,11 @@
         "method": "decimal-values-v1",
         "series": "POPTHM",
         "start": "1999-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 333,
         "api_sha256": "8007070c68a51a90b676bc31fc5d14b2c8729685b5ff6fc5be5eb90fd61ac078",
         "csv_sha256": "f8fd1a5ec941ccac2b10696b5b44e7a412adb2d8062c8475fe7f2c04c1d72056",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "PRODUCTIVITY": {
         "schema": 2,
@@ -423,11 +423,11 @@
         "method": "decimal-values-v1",
         "series": "OPHNFB",
         "start": "1999-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 111,
         "api_sha256": "d6a245c116d570cad667ab46d31bbef16d08c1007d58d3ae927e820418ffab4c",
         "csv_sha256": "d1b6196370de1d597771ae63b2f7835a44c5a6dad118985bb8ac88b671b82c63",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "IOER": {
         "schema": 2,
@@ -435,11 +435,11 @@
         "method": "decimal-values-v1",
         "series": "IOER",
         "start": "2008-10-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 4676,
         "api_sha256": "7a5e53b3698038c81ca6cc48cacdd982ade5c36f62a886aa4689bbc33351d541",
         "csv_sha256": "7e00dee924a8e5cc956302ca5aaf802a40341251a248a95d4860960df22e3292",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       },
       "FED_REMIT": {
         "schema": 2,
@@ -447,11 +447,11 @@
         "method": "decimal-values-v1",
         "series": "RESPPLLOPNWW",
         "start": "2007-01-01",
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "observations": 1037,
         "api_sha256": "aa49b412f5a6a752eb6630497e7c81681571749571dff29b55c24e19a5ddba11",
         "csv_sha256": "1967b881482403997ce62e876b8e75a7222c7557510ca7164790d11f2ac16590",
-        "prior_checked_on": "2026-11-13"
+        "prior_checked_on": "2026-11-14"
       }
     }
   },
@@ -483,19 +483,24 @@
   "live": {
     "epoch": "2026-Q2",
     "latest": {
-      "quarter": "2026-Q2",
+      "quarter": "2026-Q3",
       "epoch": "2026-Q2",
-      "computation_date": "2026-08-15",
-      "computed_at": "2026-11-05",
-      "launch_backfill": true,
+      "computation_date": "2026-11-15",
+      "computed_at": "2026-11-15",
+      "launch_backfill": false,
       "complete": true,
       "missing": [],
       "gdp_note": null,
       "input_sha256": {
-        "CPI": "fa84504abbf87dcfd68ff1ac214c8c1ecd8af52aa01be9b924ac85a476f60434",
-        "PCE": "ef6f1e789e32d95ed84bfae195d8ce15425480e3cb92b6ddaa4cc80fb644c8bf",
-        "GDP": "eb9a798ecd2da13423fd195cb6e247b101126cfa030a763331a8c0b8f50f5244"
+        "CPI": "6d3bfd3a9c8db29389679f36b1104d83b38cf8c93fa918a313e16745742bf23f",
+        "PCE": "a0ecdc8beb5ae21496d38b9a37015016aae800e8cc6c794ae31304c5eea2e478",
+        "GDP": "d286a338ec90b9a03eb34d7edc2c5b2e8a66268e6e2d67cd0b2bdbcc2be5c64e"
       },
+      "data_vintage": {
+        "as_published_on": "2026-11-15",
+        "dir": "data/inputs/vintages/2026-11-15"
+      },
+      "base_source": "frozen starting quarter",
       "inputs": {
         "base_months": [
           "2026-04-01",
@@ -503,9 +508,9 @@
           "2026-06-01"
         ],
         "current_months": [
-          "2026-04-01",
-          "2026-05-01",
-          "2026-06-01"
+          "2026-07-01",
+          "2026-08-01",
+          "2026-09-01"
         ],
         "base": {
           "cpi": [
@@ -521,14 +526,14 @@
         },
         "cur": {
           "cpi": [
-            332.407,
-            333.979,
-            332.568
+            332.813,
+            334.131,
+            336.298
           ],
           "pce": [
-            130.672,
-            131.241,
-            131.106
+            131.187,
+            131.611,
+            132.257
           ]
         },
         "gdp_years": [
@@ -561,30 +566,30 @@
       "calculators": {
         "A": {
           "trend_growth_pct": 2.465841868740683,
-          "gap_cpi_lp": 0,
-          "gap_pce_lp": 0,
-          "gap_lp": 0,
-          "allowance_raw_pct": 2.465841868740683,
-          "allowance_pct": 2.465841868740683,
-          "quarterly_step_pct": 0.610840744078267
+          "gap_cpi_lp": 0.42833034886508214,
+          "gap_pce_lp": 0.5167038957783457,
+          "gap_lp": 0.47251712232171394,
+          "allowance_raw_pct": 2.2295833075798264,
+          "allowance_pct": 2.2295833075798264,
+          "quarterly_step_pct": 0.5527951735381675
         },
         "B": {
           "trend_growth_pct": 2.46584186874068,
-          "gap_cpi_lp": 0,
-          "gap_pce_lp": 0,
-          "gap_lp": 0,
-          "allowance_raw_pct": 2.46584186874068,
-          "allowance_pct": 2.46584186874068,
-          "quarterly_step_pct": 0.6108407440782736
+          "gap_cpi_lp": 0.42833034886511356,
+          "gap_pce_lp": 0.5167038957783809,
+          "gap_lp": 0.47251712232174725,
+          "allowance_raw_pct": 2.2295833075798064,
+          "allowance_pct": 2.2295833075798064,
+          "quarterly_step_pct": 0.5527951735381521
         },
         "C": {
           "trend_growth_pct": 2.4658418687406796,
-          "gap_cpi_lp": 0,
-          "gap_pce_lp": 0,
-          "gap_lp": 0,
-          "allowance_raw_pct": 2.4658418687406796,
-          "allowance_pct": 2.4658418687406796,
-          "quarterly_step_pct": 0.6108407440782736
+          "gap_cpi_lp": 0.42833034886509125,
+          "gap_pce_lp": 0.5167038957783467,
+          "gap_lp": 0.47251712232171905,
+          "allowance_raw_pct": 2.22958330757982,
+          "allowance_pct": 2.22958330757982,
+          "quarterly_step_pct": 0.5527951735381555
         }
       },
       "consensus": {
@@ -602,14 +607,14 @@
       "available": true,
       "outputs": {
         "trend_growth_pct": 2.465841868740683,
-        "gap_cpi_lp": 0,
-        "gap_pce_lp": 0,
-        "gap_lp": 0,
-        "allowance_raw_pct": 2.465841868740683,
-        "allowance_pct": 2.465841868740683,
-        "quarterly_step_pct": 0.610840744078267
+        "gap_cpi_lp": 0.42833034886508214,
+        "gap_pce_lp": 0.5167038957783457,
+        "gap_lp": 0.47251712232171394,
+        "allowance_raw_pct": 2.2295833075798264,
+        "allowance_pct": 2.2295833075798264,
+        "quarterly_step_pct": 0.5527951735381675
       },
-      "frozen_sha256": "6c9335d23d7be6fb4c084f64fc04cc91601115d8a5169c3e67a4cca9184fd12c"
+      "frozen_sha256": "a3b522eeb96269ebdbe607bd0dcc116b9f204305d86284c7721e93a9f8b1b70d"
     },
     "readings": [
       {
@@ -620,17 +625,30 @@
         "gap_lp": 0,
         "allowance_pct": 2.466,
         "trend_growth_pct": 2.466
+      },
+      {
+        "quarter": "2026-Q3",
+        "computation_date": "2026-11-15",
+        "available": true,
+        "launch_backfill": false,
+        "gap_lp": 0.473,
+        "allowance_pct": 2.23,
+        "trend_growth_pct": 2.466
       }
     ],
     "path_index": [
       {
         "quarter": "2026-Q2",
         "path_index": 100.6108
+      },
+      {
+        "quarter": "2026-Q3",
+        "path_index": 101.167
       }
     ],
     "brake": {
-      "quarter": "2026-Q2",
-      "gap_lp": 0,
+      "quarter": "2026-Q3",
+      "gap_lp": 0.47251712232171394,
       "phase": "off",
       "consecutive_above": 0,
       "note": "Brake not needed."
@@ -642,27 +660,28 @@
         "phase": "off",
         "consecutive_above": 0,
         "note": "Brake not needed."
+      },
+      {
+        "quarter": "2026-Q3",
+        "gap_lp": 0.47251712232171394,
+        "phase": "off",
+        "consecutive_above": 0,
+        "note": "Brake not needed."
       }
     ],
     "next": {
-      "quarter": "2026-Q3",
-      "computation_date": "2026-11-15",
+      "quarter": "2026-Q4",
+      "computation_date": "2027-02-15",
       "months_needed": [
-        "2026-07-01",
-        "2026-08-01",
-        "2026-09-01"
+        "2026-10-01",
+        "2026-11-01",
+        "2026-12-01"
       ],
       "months_published": {
         "CPI": [
-          "2026-07-01",
-          "2026-08-01",
-          "2026-09-01"
+          "2026-10-01"
         ],
-        "PCE": [
-          "2026-07-01",
-          "2026-08-01",
-          "2026-09-01"
-        ]
+        "PCE": []
       }
     }
   },
@@ -3048,9 +3067,9 @@
     }
   },
   "community": {
-    "ran_at": "2026-11-14T14:19:22.255Z",
+    "ran_at": "2026-11-15T14:19:24.191Z",
     "isolated": true,
-    "context_sha256": "977947e8d02dc6ed3d8d615375c3423dcefab1297036cda8f492e204ab7e2c51",
+    "context_sha256": "5efea23d2779927bd620fa22a28748ca3c62f3f4bbfb6d62efd3314db78d7080",
     "agents": [
       {
         "id": "purchasing-power-clock",
@@ -3089,7 +3108,7 @@
   },
   "recomputes": [],
   "redteam": {
-    "ran_at": "2026-11-14T14:19:22.521Z",
+    "ran_at": "2026-11-15T14:19:24.414Z",
     "all_caught": true,
     "attacks": [
       {
@@ -3114,7 +3133,7 @@
         "id": "rewrite-entire-ledger",
         "description": "Rewrite history and re-seal EVERY entry so the chain looks perfect",
         "caught": true,
-        "detail": "chain re-sealed perfectly, but 35 witnessed checkpoint(s) expose it"
+        "detail": "chain re-sealed perfectly, but 36 witnessed checkpoint(s) expose it"
       },
       {
         "id": "edit-frozen-reading",
@@ -3196,8 +3215,8 @@
   },
   "instruction": {
     "authorized": true,
-    "quarter": "2026-Q2",
-    "instruction": "Raise the target path for public money by 0.611% this quarter (an annual rate of 2.466%). Issue only enough to close any shortfall below the path, in three monthly installments; if the stock is at or above the path, issue nothing. Brake OFF: no Stabilization Bill offer.",
+    "quarter": "2026-Q3",
+    "instruction": "Raise the target path for public money by 0.553% this quarter (an annual rate of 2.23%). Issue only enough to close any shortfall below the path, in three monthly installments; if the stock is at or above the path, issue nothing. Brake OFF: no Stabilization Bill offer.",
     "reasons": [],
     "executed": false,
     "note": "Shadow run: nothing is executed. No national dollar issuance figure is published until a reconciled model release supports one (Ch. 10)."
@@ -3248,7 +3267,7 @@
       {
         "name": "ledger-chain",
         "status": "ok",
-        "detail": "40 entries; head 894736613848697b…"
+        "detail": "41 entries; head dfe898f587808ea6…"
       },
       {
         "name": "input-fingerprints",
@@ -3268,7 +3287,7 @@
       {
         "name": "frozen-readings",
         "status": "ok",
-        "detail": "1 frozen readings intact; 1 recomputed from stored inputs"
+        "detail": "2 frozen readings intact; 2 recomputed from stored inputs"
       }
     ]
   },
@@ -3292,7 +3311,7 @@
       "group": "Sensors",
       "name": "Vintage sensor",
       "job": "Fetch the rule inputs as published ON each computation date (ALFRED), so revisions never change a reading.",
-      "status": "info"
+      "status": "ok"
     },
     {
       "tier": 1,
@@ -3917,10 +3936,10 @@
     "source": "template",
     "reason": "Reporter error: Anthropic API HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha",
     "model": "claude-haiku-5-5",
-    "headline": "Rule allows 2.47% path growth for 2026-Q2; brake off",
+    "headline": "Rule allows 2.23% path growth for 2026-Q3; brake off",
     "paragraphs": [
-      "For 2026-Q2, the rule measured prices right at its flat target (this is the starting quarter, so the gap is zero by definition) and long-run real growth of 2.47% a year. So it would let the path for public money grow at 2.47% a year. Three separately written calculators agreed.",
-      "The brake is off. Brake not needed. The next computation, for 2026-Q3, is due on 2026-11-15.",
+      "For 2026-Q3, the rule measured prices 0.47 log points above its flat target and long-run real growth of 2.47% a year. So it would let the path for public money grow at 2.23% a year. Three separately written calculators agreed.",
+      "The brake is off. Brake not needed. The next computation, for 2026-Q4, is due on 2027-02-15.",
       "Global dollar watch: calm. Home financial stress: calm. This is an unofficial shadow run: nothing is executed, and no dollar issuance figure is published."
     ]
   },
@@ -3933,8 +3952,8 @@
       "rule": "A flat price level: a dollar that buys about the same decades from now. Untested."
     },
     "now": {
-      "rule_allowed_pct": 2.47,
-      "rule_quarter": "2026-Q2",
+      "rule_allowed_pct": 2.23,
+      "rule_quarter": "2026-Q3",
       "rule_brake": "off",
       "fed_base_growth_12m_pct": -0.5,
       "fed_base_as_of": "2026-09-01",
