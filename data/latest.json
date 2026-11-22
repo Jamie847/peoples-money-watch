@@ -3,12 +3,12 @@
   "title": "The People's Watch — shadow run of The People's Money rule",
   "disclaimer": "Unofficial shadow run of a candidate design described in The People's Money (Jamie Murray, 2026). It is not the design's formal 18-month rehearsal, executes nothing, and publishes no national issuance figure. Each live reading after the starting quarter uses the rule's inputs exactly as published on its computation date (the starting quarter's prices were read at launch; see interpretation 8); all data are fetched through the St. Louis Fed's FRED/ALFRED; the replay and the sentinels use current (revised) data. Whether the rule would keep prices stable has not been tested. Not financial advice.",
   "run": {
-    "date": "2026-11-21",
-    "started_at": "2026-11-21T14:19:41.302Z",
-    "finished_at": "2026-11-21T14:19:54.614Z",
+    "date": "2026-11-22",
+    "started_at": "2026-11-22T14:19:39.437Z",
+    "finished_at": "2026-11-22T14:19:46.998Z",
     "mode": "live",
-    "ledger_seq": 46,
-    "ledger_hash": "830ea4a93281265b9ff8502b41329e999c3441b8243a219f06be748cc8a6f455"
+    "ledger_seq": 47,
+    "ledger_hash": "a7e37b632d8e5a6f860c253542d1589c1e52741873dfda33be68957ab8f886d6"
   },
   "fred_api": {
     "key_present": true,
@@ -139,11 +139,11 @@
         "method": "decimal-values-v1",
         "series": "CPIAUCSL",
         "start": "1998-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 345,
         "api_sha256": "02342f5759980e724044ba573ff5d672b53b22f32ea2cc4e631182f317b760ac",
         "csv_sha256": "99733bbc0ccafffa1908fc8217f67873cfd3e28f9463789a17d358ff66e4bd7a",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "PCE": {
         "schema": 2,
@@ -151,11 +151,11 @@
         "method": "decimal-values-v1",
         "series": "PCEPI",
         "start": "1998-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 345,
         "api_sha256": "64b38b2198a95a09f839bb43821c3ae20aa4f55bb22db5a42dcf0f4815f84812",
         "csv_sha256": "ef6f1e789e32d95ed84bfae195d8ce15425480e3cb92b6ddaa4cc80fb644c8bf",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "GDP": {
         "schema": 2,
@@ -163,11 +163,11 @@
         "method": "decimal-values-v1",
         "series": "GDPCA",
         "start": "1980-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 46,
         "api_sha256": "22097abffbe7848e0d8c5794bee67322ad551435594edadc26b389f04c6926e2",
         "csv_sha256": "eb9a798ecd2da13423fd195cb6e247b101126cfa030a763331a8c0b8f50f5244",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "SWAPS": {
         "schema": 2,
@@ -175,11 +175,11 @@
         "method": "decimal-values-v1",
         "series": "SWPT",
         "start": "2007-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 1038,
         "api_sha256": "41e6900327465bce2f78f16846d131800da94ff8ea199c8ed2f62cd6bc94ada0",
         "csv_sha256": "5f23d42ae2cfd4ea06b4891025abfbf643c5fed70da21173705b569241569d99",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "FIMA_REPO": {
         "schema": 2,
@@ -187,11 +187,11 @@
         "method": "decimal-values-v1",
         "series": "H41RESPPALGTRFNWW",
         "start": "2007-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 1038,
         "api_sha256": "7527e1837221ca412ab7151310c724ed6a2ced7922dcfb516e440b082a33d4d3",
         "csv_sha256": "1fbf1d93033f2aa8c5c73fb9d96b8f5045526c3bc664f4ab31a93673bddf5a4e",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "FOREIGN_CUSTODY": {
         "schema": 2,
@@ -199,11 +199,11 @@
         "method": "decimal-values-v1",
         "series": "WMTSECL1",
         "start": "2007-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 1038,
         "api_sha256": "200e13032bfea775bacdabfb044d57e8b84c7fa49899bdb9046cf44138da2ea8",
         "csv_sha256": "9fbfad1941c160254750f822cabc42a16c3032df1549c02244db8f33f98b4e5c",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "DOLLAR_INDEX": {
         "schema": 2,
@@ -211,11 +211,11 @@
         "method": "decimal-values-v1",
         "series": "DTWEXBGS",
         "start": "2006-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 5231,
         "api_sha256": "8d29f0d9f76915eabbf4ce6b241ffa8ddff6e194482bf3afc1ba4e51b6dfa4be",
         "csv_sha256": "542aab261636608b3fb59fc913b8ad9d9767f15c551637b76ee16391d522f5d3",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "TEN_YEAR": {
         "schema": 2,
@@ -223,11 +223,11 @@
         "method": "decimal-values-v1",
         "series": "DGS10",
         "start": "2019-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 1972,
         "api_sha256": "76a877fdb70101f0d86134f0ab4004cf214bc6e7464429d932d14f8697b47a46",
         "csv_sha256": "7e66e6c4d14dec358ccbaadd9b6d11d66e74c141e0df9caa8879d0f634668556",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "STRESS_STL": {
         "schema": 2,
@@ -235,11 +235,11 @@
         "method": "decimal-values-v1",
         "series": "STLFSI4",
         "start": "2007-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 1037,
         "api_sha256": "b73fdb2e1a6dc8c494bf0185645feaa7deb99d3ec3ef9ba7926d94bfffe09556",
         "csv_sha256": "3935e4e990cf9ee5ffbdf3bf7488b06fa2a29ac39240cd9d21211d1695ba0a83",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "STRESS_CHI": {
         "schema": 2,
@@ -247,11 +247,11 @@
         "method": "decimal-values-v1",
         "series": "NFCI",
         "start": "2007-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 1037,
         "api_sha256": "162c8ea55e8a44ab8267b910e5f1456da3a8f4c8b5ca21e126bc18dadcb45385",
         "csv_sha256": "3dad90dbb6fbebef8176d7e1192c36918e05c61bf9979267052a1cd03f588339",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "BANK_CREDIT": {
         "schema": 2,
@@ -259,11 +259,11 @@
         "method": "decimal-values-v1",
         "series": "TOTLL",
         "start": "2007-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 1037,
         "api_sha256": "a4d40b3120fcdb559250da6e3098ae46d6ce9627f90ca07eb6c9acc693f6e8bc",
         "csv_sha256": "f2b2f222a807162469a7874ab441485f7bbb19fd1c81ffc9862e70ab9e8688d1",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "SOFR": {
         "schema": 2,
@@ -271,11 +271,11 @@
         "method": "decimal-values-v1",
         "series": "SOFR",
         "start": "2021-07-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 1344,
         "api_sha256": "8fdbf9b200193e8cc48cb8c5fedbf308e7b9c091117134799862be40f2e6d308",
         "csv_sha256": "6ed9cd3f5d93aa5b4ebe6c704267c60e92a7e81d3b9058941f95a20957130c21",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "IORB": {
         "schema": 2,
@@ -283,11 +283,11 @@
         "method": "decimal-values-v1",
         "series": "IORB",
         "start": "2021-07-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 1944,
         "api_sha256": "26e2b48ec04a1c8da6425ceecced9240429b83f96aa4ae1d36a847a824e853b6",
         "csv_sha256": "429a73ac89d412e4b5bc06c74d465291e2c62d496ac7a038c9950a8765f39c6f",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "RESERVES": {
         "schema": 2,
@@ -295,11 +295,11 @@
         "method": "decimal-values-v1",
         "series": "WRESBAL",
         "start": "2002-12-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 1249,
         "api_sha256": "833218c75c3a882bb49d5f89d8880d31adb36f50ae33a78dbdaea44cfe7b65bc",
         "csv_sha256": "be0c4717460f95067ec1317844107fb5ce86855911e20af40919f1f3a7e52b08",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "TGA": {
         "schema": 2,
@@ -307,11 +307,11 @@
         "method": "decimal-values-v1",
         "series": "WTREGEN",
         "start": "2007-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 1038,
         "api_sha256": "2653285f3a1d43267ee6a60eca65ea664e943472858a5b1dd6c1d44da773e9d8",
         "csv_sha256": "483fcb339ef777322a1449e6cacaf8554d6cb6b251963492195137b06cf792e8",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "ON_RRP": {
         "schema": 2,
@@ -319,11 +319,11 @@
         "method": "decimal-values-v1",
         "series": "RRPONTSYD",
         "start": "2019-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 1969,
         "api_sha256": "e424d27008083b4222b21a869ba57fce60b66894a72c1e69ddad2e269b888a6b",
         "csv_sha256": "011c7612d13157736ce5c3c9f42dcde0a4fb4dc42bfb8e693efa06633a33a481",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "EXPECT_5Y5Y": {
         "schema": 2,
@@ -331,11 +331,11 @@
         "method": "decimal-values-v1",
         "series": "T5YIFR",
         "start": "2003-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 5976,
         "api_sha256": "44bb69dc242dfd3fd43980e17a62b50ec43937cc4748f8094ed9613395fcd9ed",
         "csv_sha256": "6bdce778a67022d774a74923b7351aad96988e8ea9b23e38a5429aa30569ac07",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "EXPECT_MICH": {
         "schema": 2,
@@ -343,11 +343,11 @@
         "method": "decimal-values-v1",
         "series": "MICH",
         "start": "2007-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 238,
         "api_sha256": "3bef23c67a50f15286cbd1f8b31e3e3c8e0476f0e924bcb47b634c820db73bf6",
         "csv_sha256": "cde358870d6942d9d0662600ac96f7c1c18c556246b684cddb0197126ceb1a9a",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "MEDIAN_CPI": {
         "schema": 2,
@@ -355,31 +355,31 @@
         "method": "decimal-values-v1",
         "series": "MEDCPIM158SFRBCLE",
         "start": "2007-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 238,
         "api_sha256": "a5a342cde18af3755220ddf6e8b38d009c16caec2f7e90e63198fc2abd2fbf33",
         "csv_sha256": "809cde8fb041521164fe6fb9aafae98665c9d6ca406701dfb75a5f2d6936d48a",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "UNEMPLOYMENT": {
         "schema": 1,
         "status": "identical",
         "series": "UNRATE",
         "start": "2007-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "api_sha256": "8b3c92b016132da7e8a8414facb75fa79b5aaf4e39971e0f02e309429404420a",
         "csv_sha256": "8b3c92b016132da7e8a8414facb75fa79b5aaf4e39971e0f02e309429404420a",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "BASE": {
         "schema": 1,
         "status": "identical",
         "series": "BOGMBASE",
         "start": "1999-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "api_sha256": "cbf77890eb47d0e884b3d57f8702f433fed7acd30c7387f67373d752dee87565",
         "csv_sha256": "cbf77890eb47d0e884b3d57f8702f433fed7acd30c7387f67373d752dee87565",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "CURRENCY": {
         "schema": 2,
@@ -387,11 +387,11 @@
         "method": "decimal-values-v1",
         "series": "WCURCIR",
         "start": "2003-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 1247,
         "api_sha256": "0df44f3d16a070e5e1fd2b0a16c1dc2d06df88a7d88893bd34144860f9b5f889",
         "csv_sha256": "ad1aaa620ab9455ccf04caaaec9b91aa6f56f29e9c1d1fe58ee8036a938fe0dd",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "NGDP": {
         "schema": 2,
@@ -399,11 +399,11 @@
         "method": "decimal-values-v1",
         "series": "GDP",
         "start": "1999-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 111,
         "api_sha256": "2e7bdbae55f15149f363bcc1a368f2998ec4efbac71dddfd1709e282c6a3020f",
         "csv_sha256": "1fb6c8bcdfa342bcb30eed979658bcb83686ae8fa1acf50dbff06ccdaa3ae7e3",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "POPULATION": {
         "schema": 2,
@@ -411,11 +411,11 @@
         "method": "decimal-values-v1",
         "series": "POPTHM",
         "start": "1999-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 333,
         "api_sha256": "8007070c68a51a90b676bc31fc5d14b2c8729685b5ff6fc5be5eb90fd61ac078",
         "csv_sha256": "f8fd1a5ec941ccac2b10696b5b44e7a412adb2d8062c8475fe7f2c04c1d72056",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "PRODUCTIVITY": {
         "schema": 2,
@@ -423,11 +423,11 @@
         "method": "decimal-values-v1",
         "series": "OPHNFB",
         "start": "1999-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 111,
         "api_sha256": "d6a245c116d570cad667ab46d31bbef16d08c1007d58d3ae927e820418ffab4c",
         "csv_sha256": "d1b6196370de1d597771ae63b2f7835a44c5a6dad118985bb8ac88b671b82c63",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "IOER": {
         "schema": 2,
@@ -435,11 +435,11 @@
         "method": "decimal-values-v1",
         "series": "IOER",
         "start": "2008-10-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 4676,
         "api_sha256": "7a5e53b3698038c81ca6cc48cacdd982ade5c36f62a886aa4689bbc33351d541",
         "csv_sha256": "7e00dee924a8e5cc956302ca5aaf802a40341251a248a95d4860960df22e3292",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       },
       "FED_REMIT": {
         "schema": 2,
@@ -447,11 +447,11 @@
         "method": "decimal-values-v1",
         "series": "RESPPLLOPNWW",
         "start": "2007-01-01",
-        "checked_on": "2026-11-21",
+        "checked_on": "2026-11-22",
         "observations": 1038,
         "api_sha256": "5ffac682ed2125817149909205bb6da54305700bea60b0e40d2ff2fe81921c4b",
         "csv_sha256": "512dbb6e3e3a4a64e1fe265f8fcb1846b9b919d4d666f81fe1f5472fa2c15dcb",
-        "prior_checked_on": "2026-11-20"
+        "prior_checked_on": "2026-11-21"
       }
     }
   },
@@ -3067,9 +3067,9 @@
     }
   },
   "community": {
-    "ran_at": "2026-11-21T14:19:41.036Z",
+    "ran_at": "2026-11-22T14:19:39.143Z",
     "isolated": true,
-    "context_sha256": "e539e3a675b26672df89963e4bb56bddcec7656e3babf52772760c363cfc06af",
+    "context_sha256": "6e8b31f290123ab718c538c76a269facd6065b019f7f0aac5f83a6586abbd119",
     "agents": [
       {
         "id": "purchasing-power-clock",
@@ -3078,7 +3078,7 @@
         "role": "analyst",
         "description": "Shows what a dollar saved at past dates buys today, from the published CPI-U. Facts only, no forecasts. A template for contributors.",
         "homepage": null,
-        "duration_ms": 47,
+        "duration_ms": 50,
         "isolated": true,
         "report": {
           "status": "info",
@@ -3108,7 +3108,7 @@
   },
   "recomputes": [],
   "redteam": {
-    "ran_at": "2026-11-21T14:19:41.260Z",
+    "ran_at": "2026-11-22T14:19:39.379Z",
     "all_caught": true,
     "attacks": [
       {
@@ -3133,7 +3133,7 @@
         "id": "rewrite-entire-ledger",
         "description": "Rewrite history and re-seal EVERY entry so the chain looks perfect",
         "caught": true,
-        "detail": "chain re-sealed perfectly, but 42 witnessed checkpoint(s) expose it"
+        "detail": "chain re-sealed perfectly, but 43 witnessed checkpoint(s) expose it"
       },
       {
         "id": "edit-frozen-reading",
@@ -3262,7 +3262,7 @@
       {
         "name": "ledger-chain",
         "status": "ok",
-        "detail": "47 entries; head 830ea4a93281265b…"
+        "detail": "48 entries; head a7e37b632d8e5a6f…"
       },
       {
         "name": "input-fingerprints",
