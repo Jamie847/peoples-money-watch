@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "INDEX_DISAGREEMENT-fb7aae51ed",
+    "type": "INDEX_DISAGREEMENT",
+    "severity": "review",
+    "title": "Price indexes disagree by undefined percentage points (undefined)",
+    "what_happened": "Not enough history for a 12-month comparison",
+    "what_the_rule_says": "The average still governs, the gap is published, and an inspector general reviews both series (Ch. 7).",
+    "who_decides": "Inspector general",
+    "evidence": {
+      "check": "index-agreement",
+      "status": "warn",
+      "detail": "Not enough history for a 12-month comparison"
+    }
+  }
+]
