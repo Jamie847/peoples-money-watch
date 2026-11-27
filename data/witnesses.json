@@ -1125,9 +1125,10 @@
       "ledger_entry_hash": "a01c0d429bae344c50a79d43cb34f32f09a01e6e255ce5479534558e69439855",
       "run_date": "2026-11-26",
       "bitcoin": {
-        "status": "pending",
+        "status": "confirmed",
+        "block_height": 977690,
         "ots_file": "data/checkpoints/000051-2026-11-26.json.ots",
-        "submitted": "2026-11-26T14:21:30.578Z"
+        "explorer": "https://mempool.space/block/977690"
       },
       "sigstore": {
         "attestation_url": "https://github.com/Jamie847/peoples-money-watch/attestations/72700649",
@@ -1141,6 +1142,24 @@
         "lookup": "https://web.archive.org/web/*/https://raw.githubusercontent.com/Jamie847/peoples-money-watch/f9eb54315f874c688e7d4b3e5b95bed31b0b25ad/data/checkpoints/000051-2026-11-26.json",
         "status": "saved"
       }
+    },
+    {
+      "file": "data/checkpoints/000052-2026-11-27.json",
+      "ledger_seq": 52,
+      "ledger_entry_hash": "3f04ecc0c4a5c138ace2b94064f1b983615aeea5008bc7eb49c85fbb06a0ddc4",
+      "run_date": "2026-11-27",
+      "bitcoin": {
+        "status": "pending",
+        "ots_file": "data/checkpoints/000052-2026-11-27.json.ots",
+        "submitted": "2026-11-27T14:20:20.988Z"
+      },
+      "sigstore": {
+        "attestation_url": "https://github.com/Jamie847/peoples-money-watch/attestations/73144068",
+        "rekor_log_index": 4149822217,
+        "rekor_search": "https://search.sigstore.dev/?logIndex=4149822217",
+        "verify": "gh attestation verify data/checkpoints/000052-2026-11-27.json --repo Jamie847/peoples-money-watch"
+      },
+      "wayback": null
     }
   ]
 }
